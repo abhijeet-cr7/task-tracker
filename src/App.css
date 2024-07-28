@@ -1,0 +1,3 @@
+.App_Grid_Wrapper{
+  grid-template-columns: repeat(3, 1fr);
+}

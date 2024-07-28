@@ -1,0 +1,37 @@
+.Dropdown_main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-height: 300px;
+    cursor: pointer;
+    min-width: 100px;
+}
+.Dropdown_list_open_wrapper{
+    position: absolute;
+    top:52px;
+    cursor: pointer;
+    z-index: 2;
+    background-color: azure;
+    min-width: 100px;
+}
+.Dropdown_list_open{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
+    min-width: 100px;
+    cursor: pointer;
+}
+.Dropdown_list_closed{
+    border: 1px solid black;
+    min-width: 100px;
+    cursor: pointer;
+    min-width: 100px;
+}
+.Dropdown_list:hover{
+    background-color: beige;
+    cursor: pointer;
+}
+.Dropdown_list_closed:hover{
+    background-color: beige;
+    cursor: pointer;
+}
